@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /admin/ # Disallow admin areas
+Disallow: /api/admin/ # Disallow admin API routes
+Allow: /api/auth/ # Allow NextAuth routes for sign in etc.
+Allow: /api/faq/ # Allow public FAQ API
+Allow: /api/blog/ # Allow public Blog API
+
+Sitemap: https://YOUR_DOMAIN_HERE/sitemap.xml
